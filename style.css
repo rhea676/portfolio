@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+#home{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#f72d3e 0%, #df20e6 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.line{
+    height:6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+.menu{
+    position:fixed;
+    margin-top:0px;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: white;
+    width: 100%;
+}
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+.links{
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: cursive;
+    font-size: 20px;
+    display: inline;
+}
+.links:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+#hobbys{
+    font-family: cursive;
+    padding: 50px;
+}
+#apps{
+    background-color: aqua;
+}
+#games{
+    background-color: salmon;
+}
+#chatbot{
+    background-color: springgreen;
+}
+
+#picture{
+    width:auto;
+    height:300px;
+   border-radius:0%;
+    
+    margin:20px;
+}
+.food
+{
+  background: #373B44;  
+
+ background: linear-gradient( #4286f4, #373B44); 
+padding-top:20px;
+}
+
+img {
+transition: transform .2s;
+border: 10px solid #AAAAAA;
+}
+
+img:hover {
+
+    transform: scale(0.9);
+}
+img{
+    width:100;
+    height:100;
+      border-radius: 50%;
+      
+  }
+  a{
+    text-decoration: none;
+}
+#contact{
+    background: dimgrey;
+    }
+    #contact iframe{
+        width:100%;
+    }
+    .contact_1 h3{
+        display: inline;
+    }
